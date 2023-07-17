@@ -1,5 +1,7 @@
-
-r-primary: #d73953;
+/* task 6 */
+:root {
+/* colors */
+--color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
@@ -43,6 +45,15 @@ a {
 }
 
 .card-category {
+    background-color: var(--color-primary);
+}
+
+
+
+.section-tagline {
+    background-color: var(--color-primary);
+}
+
   color: var(--color-primary);
 }
 
